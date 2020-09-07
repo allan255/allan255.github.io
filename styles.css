@@ -218,15 +218,19 @@ li a, .manuBtn {
     text-align: center;
 }
 
+.gameList {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+}
+
 .game-container .gameList li a{
-   max-width: 157px;
-   /* display: inline-block; */
-   float: left;
+   max-width: 157px;  
    margin-top: 4%;
    line-height: 1.2;
    margin-right: 4%;
 }
-
 .gameList h3 {
     font-size: 1rem;
     /* width: 60%; */
